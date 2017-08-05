@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C1FC0EE1F3555D000C5EB53 /* ExploiterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1FC0ED1F3555D000C5EB53 /* ExploiterTableViewController.m */; };
+		7C1FC0F11F355CF100C5EB53 /* consoleAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1FC0F01F355CF100C5EB53 /* consoleAreaViewController.m */; };
 		B016208D1F22AF000039B609 /* pocs in Resources */ = {isa = PBXBuildFile; fileRef = B016208C1F22AF000039B609 /* pocs */; };
 		B016208F1F2E85AB0039B609 /* README in Resources */ = {isa = PBXBuildFile; fileRef = B016208E1F2E85AA0039B609 /* README */; };
 		B01620911F2E8A5D0039B609 /* debugserver.diff in Resources */ = {isa = PBXBuildFile; fileRef = B01620901F2E8A5D0039B609 /* debugserver.diff */; };
 		B0CFEB1A1EEEEDD900310825 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CFEB191EEEEDD900310825 /* main.m */; };
 		B0CFEB1D1EEEEDD900310825 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CFEB1C1EEEEDD900310825 /* AppDelegate.m */; };
-		B0CFEB201EEEEDD900310825 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0CFEB1F1EEEEDD900310825 /* ViewController.m */; };
 		B0CFEB231EEEEDD900310825 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CFEB211EEEEDD900310825 /* Main.storyboard */; };
 		B0CFEB251EEEEDD900310825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0CFEB241EEEEDD900310825 /* Assets.xcassets */; };
 		B0CFEB281EEEEDD900310825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CFEB261EEEEDD900310825 /* LaunchScreen.storyboard */; };
@@ -43,6 +44,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C1FC0EC1F3555D000C5EB53 /* ExploiterTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExploiterTableViewController.h; sourceTree = "<group>"; };
+		7C1FC0ED1F3555D000C5EB53 /* ExploiterTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExploiterTableViewController.m; sourceTree = "<group>"; };
+		7C1FC0EF1F355CF100C5EB53 /* consoleAreaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = consoleAreaViewController.h; sourceTree = "<group>"; };
+		7C1FC0F01F355CF100C5EB53 /* consoleAreaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = consoleAreaViewController.m; sourceTree = "<group>"; };
 		B016208C1F22AF000039B609 /* pocs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pocs; sourceTree = "<group>"; };
 		B016208E1F2E85AA0039B609 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		B01620901F2E8A5D0039B609 /* debugserver.diff */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = debugserver.diff; sourceTree = "<group>"; };
@@ -51,8 +56,6 @@
 		B0CFEB191EEEEDD900310825 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0CFEB1B1EEEEDD900310825 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0CFEB1C1EEEEDD900310825 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B0CFEB1E1EEEEDD900310825 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B0CFEB1F1EEEEDD900310825 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B0CFEB221EEEEDD900310825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0CFEB241EEEEDD900310825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0CFEB271EEEEDD900310825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -148,8 +151,6 @@
 				B0CFEB341EEEF63B00310825 /* minibplist16.c */,
 				B0CFEB1B1EEEEDD900310825 /* AppDelegate.h */,
 				B0CFEB1C1EEEEDD900310825 /* AppDelegate.m */,
-				B0CFEB1E1EEEEDD900310825 /* ViewController.h */,
-				B0CFEB1F1EEEEDD900310825 /* ViewController.m */,
 				B0CFEB211EEEEDD900310825 /* Main.storyboard */,
 				B0CFEB241EEEEDD900310825 /* Assets.xcassets */,
 				B0CFEB261EEEEDD900310825 /* LaunchScreen.storyboard */,
@@ -178,6 +179,10 @@
 				B0FB99AE1F13D8DF0045C446 /* drop_payload.h */,
 				B04FA5D61F222F1A0098AA9F /* log.h */,
 				B016208E1F2E85AA0039B609 /* README */,
+				7C1FC0EC1F3555D000C5EB53 /* ExploiterTableViewController.h */,
+				7C1FC0ED1F3555D000C5EB53 /* ExploiterTableViewController.m */,
+				7C1FC0EF1F355CF100C5EB53 /* consoleAreaViewController.h */,
+				7C1FC0F01F355CF100C5EB53 /* consoleAreaViewController.m */,
 			);
 			path = nsxpc2pc;
 			sourceTree = "<group>";
@@ -249,7 +254,7 @@
 				TargetAttributes = {
 					B0CFEB141EEEEDD900310825 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = 8TSM3C3R92;
+						DevelopmentTeam = 6578A826QL;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -294,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C1FC0EE1F3555D000C5EB53 /* ExploiterTableViewController.m in Sources */,
 				B0CFEB571EEEF8A300310825 /* oxpc_utils.c in Sources */,
 				B0FB979A1F02AB1C0045C446 /* remote_call.c in Sources */,
 				B0CFEB521EEEF8A300310825 /* oxpc_mach_send.c in Sources */,
@@ -306,7 +312,6 @@
 				B0FB99AF1F13D8DF0045C446 /* drop_payload.c in Sources */,
 				B0FB979D1F02AC390045C446 /* remote_memory.c in Sources */,
 				B0CFEB561EEEF8A300310825 /* oxpc_uint64.c in Sources */,
-				B0CFEB201EEEEDD900310825 /* ViewController.m in Sources */,
 				B0FB97B51F0AD5460045C446 /* debugger_support.c in Sources */,
 				B0CFEB4F1EEEF8A300310825 /* oxpc_array.c in Sources */,
 				B0FB97A91F02CB140045C446 /* remote_file.c in Sources */,
@@ -318,6 +323,7 @@
 				B0CFEB1A1EEEEDD900310825 /* main.m in Sources */,
 				B0FB97A61F02B4010045C446 /* patch_amfid.c in Sources */,
 				B0CFEB371EEEF63B00310825 /* minibplist16.c in Sources */,
+				7C1FC0F11F355CF100C5EB53 /* consoleAreaViewController.m in Sources */,
 				B0CFEB5C1EF14E3800310825 /* post_exploit.c in Sources */,
 				B0CFEB501EEEF8A300310825 /* oxpc_data.c in Sources */,
 			);
@@ -439,7 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8TSM3C3R92;
+				DEVELOPMENT_TEAM = 6578A826QL;
 				INFOPLIST_FILE = nsxpc2pc/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -452,7 +458,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8TSM3C3R92;
+				DEVELOPMENT_TEAM = 6578A826QL;
 				INFOPLIST_FILE = nsxpc2pc/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

