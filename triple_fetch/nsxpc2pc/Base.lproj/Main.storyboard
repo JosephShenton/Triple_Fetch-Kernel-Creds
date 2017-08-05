@@ -294,6 +294,35 @@ UI By Joseph Shenton, triple_fetch exploit by Ian Beer from Google Project Zero<
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
+                            <tableViewSection headerTitle="Developer Only Section" id="r3h-CZ-qQm">
+                                <string key="footerTitle">THIS SECTION IS FOR DEVELOPERS ONLY! DO NOT USE THIS SECTION IF YOU DO NOT UNDERSTAND WHAT YOU ARE DOING! JJS DIGITAL, IAN BEER AND JOSEPH SHENTON DO NOT TAKE ANY RESPONSIBILITY FOR ANY DAMAGE DONE TO YOUR DEVICE!</string>
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="dDL-k4-rab">
+                                        <rect key="frame" x="0.0" y="1145.3333333333333" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dDL-k4-rab" id="h5i-Tm-gli">
+                                            <rect key="frame" x="0.0" y="0.0" width="381" height="43.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Execute Custom Code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="22h-3b-hhX">
+                                                    <rect key="frame" x="8" y="11" width="170" height="22"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="22h-3b-hhX" secondAttribute="bottom" constant="3" id="Hhi-y6-04Z"/>
+                                                <constraint firstItem="22h-3b-hhX" firstAttribute="top" secondItem="h5i-Tm-gli" secondAttribute="topMargin" constant="3" id="eoC-p6-9xU"/>
+                                                <constraint firstItem="22h-3b-hhX" firstAttribute="leading" secondItem="h5i-Tm-gli" secondAttribute="leadingMargin" id="stb-rK-NVm"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="b4P-m1-lSz" kind="show" id="wC0-PZ-lZn"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="Rhb-iG-UQt" id="O9Y-jy-Iab"/>
@@ -315,6 +344,36 @@ UI By Joseph Shenton, triple_fetch exploit by Ian Beer from Google Project Zero<
             </objects>
             <point key="canvasLocation" x="1534.7826086956522" y="112.50000000000001"/>
         </scene>
+        <!--Custom Code-->
+        <scene sceneID="g2T-8p-D9h">
+            <objects>
+                <viewController id="b4P-m1-lSz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PvO-Em-BD7"/>
+                        <viewControllerLayoutGuide type="bottom" id="9je-hu-FML"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cIy-Gp-m5h">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="NSLog(@&quot;Hello World!&quot;);" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="l2P-Dg-Xx5">
+                                <rect key="frame" x="0.0" y="116" width="414" height="620"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Custom Code" id="gzl-hH-dxB">
+                        <barButtonItem key="rightBarButtonItem" title="Save &amp; Restart" id="lre-4i-bRn"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QyJ-Y3-5vc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2260.8695652173915" y="791.57608695652175"/>
+        </scene>
         <!--Console-->
         <scene sceneID="RJ1-uG-clN">
             <objects>
@@ -335,7 +394,7 @@ UI By Joseph Shenton, triple_fetch exploit by Ian Beer from Google Project Zero<
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" red="0.9370916485786438" green="0.93694382905960083" blue="0.95754462480545044" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="8CZ-wb-fX1" firstAttribute="top" secondItem="mCd-hU-quf" secondAttribute="bottom" id="1mZ-dn-Hdc"/>
                             <constraint firstItem="8CZ-wb-fX1" firstAttribute="leading" secondItem="Hgk-wB-hr7" secondAttribute="leading" id="RPD-My-2PC"/>
