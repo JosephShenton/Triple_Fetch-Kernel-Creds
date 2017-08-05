@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7C1FC0EE1F3555D000C5EB53 /* ExploiterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1FC0ED1F3555D000C5EB53 /* ExploiterTableViewController.m */; };
 		7C1FC0F11F355CF100C5EB53 /* consoleAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1FC0F01F355CF100C5EB53 /* consoleAreaViewController.m */; };
+		7CD66DA21F357B1100DBEB52 /* crashtext.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7CD66DA11F357B1100DBEB52 /* crashtext.txt */; };
 		B016208D1F22AF000039B609 /* pocs in Resources */ = {isa = PBXBuildFile; fileRef = B016208C1F22AF000039B609 /* pocs */; };
 		B016208F1F2E85AB0039B609 /* README in Resources */ = {isa = PBXBuildFile; fileRef = B016208E1F2E85AA0039B609 /* README */; };
 		B01620911F2E8A5D0039B609 /* debugserver.diff in Resources */ = {isa = PBXBuildFile; fileRef = B01620901F2E8A5D0039B609 /* debugserver.diff */; };
@@ -48,6 +49,7 @@
 		7C1FC0ED1F3555D000C5EB53 /* ExploiterTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExploiterTableViewController.m; sourceTree = "<group>"; };
 		7C1FC0EF1F355CF100C5EB53 /* consoleAreaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = consoleAreaViewController.h; sourceTree = "<group>"; };
 		7C1FC0F01F355CF100C5EB53 /* consoleAreaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = consoleAreaViewController.m; sourceTree = "<group>"; };
+		7CD66DA11F357B1100DBEB52 /* crashtext.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crashtext.txt; sourceTree = "<group>"; };
 		B016208C1F22AF000039B609 /* pocs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pocs; sourceTree = "<group>"; };
 		B016208E1F2E85AA0039B609 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		B01620901F2E8A5D0039B609 /* debugserver.diff */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = debugserver.diff; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 				7C1FC0ED1F3555D000C5EB53 /* ExploiterTableViewController.m */,
 				7C1FC0EF1F355CF100C5EB53 /* consoleAreaViewController.h */,
 				7C1FC0F01F355CF100C5EB53 /* consoleAreaViewController.m */,
+				7CD66DA11F357B1100DBEB52 /* crashtext.txt */,
 			);
 			path = nsxpc2pc;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CD66DA21F357B1100DBEB52 /* crashtext.txt in Resources */,
 				B016208F1F2E85AB0039B609 /* README in Resources */,
 				B0CFEB281EEEEDD900310825 /* LaunchScreen.storyboard in Resources */,
 				B016208D1F22AF000039B609 /* pocs in Resources */,
