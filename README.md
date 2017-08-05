@@ -1,8 +1,8 @@
-# Tripple-Fetch-Kernel-Creds
+# Triple-Fetch-Kernel-Creds
 Attempt to steal kernelcredentials from launchd + task_t pointer (Based on: CVE-2017-7047)
 
-# About Tripple Fetch (by Ian Beer from Google Project Zero)
-Tripple Fetch is an exploit for iOS devices prior to iOS 10.3.3
+# About Triple Fetch (by Ian Beer from Google Project Zero)
+Triple Fetch is an exploit for iOS devices prior to iOS 10.3.3
 It exploits a logic error in libxpc that allows attackers to send malious messages with xpc_data objects that are backed by shared memory.
 
 # What have is in the original exploit
